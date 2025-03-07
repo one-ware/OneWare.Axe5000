@@ -1,0 +1,37 @@
+{
+    "category": "FPGA Boards",
+    "type": "Hardware",
+    "name": "AXE5000 Support",
+    "id": "OneWare.Axe5000",
+    "description": "AXE5000 Integration",
+    "iconUrl": "https://raw.githubusercontent.com/one-ware/OneWare.Axe5000/main/demo.png",
+    "license": "MIT",
+    "tabs": [
+      {
+        "title": "Readme",
+        "contentUrl": "https://raw.githubusercontent.com/one-ware/OneWare.Axe5000/main/README.md"
+      },
+      {
+        "title": "License",
+        "contentUrl": "https://raw.githubusercontent.com/one-ware/OneWare.Axe5000/main/LICENSE"
+      }
+    ],
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/one-ware/OneWare.Axe5000"
+      }
+    ],
+    "versions": [
+      {
+        "version": "1.0",
+        "targets": [
+          {
+            "target": "all",
+            "url": "https://github.com/one-ware/OneWare.Axe5000/releases/download/1.0/OneWare.Axe5000_1.0_all.zip"
+          }
+        ]
+      }
+    ]
+  }
+  

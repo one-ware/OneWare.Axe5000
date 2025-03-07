@@ -1,0 +1,403 @@
+{
+  "width": 324,
+  "height": 180,
+  "elements": [
+    {
+      "type": "rect",
+      "x": 40,
+      "y": 40,
+      "width": 244,
+      "height": 100,
+      "color": "#0A6945",
+      "cornerRadius": "10"
+    },
+    {
+      "type": "ellipse",
+      "x": 45,
+      "y": 45,
+      "width": 10,
+      "height": 10,
+      "color": "#333333"
+    },
+    {
+      "type": "ellipse",
+      "x": 45,
+      "y": 125,
+      "width": 10,
+      "height": 10,
+      "color": "#333333"
+    },
+    {
+      "type": "ellipse",
+      "x": 269,
+      "y": 45,
+      "width": 10,
+      "height": 10,
+      "color": "#333333"
+    },
+    {
+      "type": "ellipse",
+      "x": 269,
+      "y": 125,
+      "width": 10,
+      "height": 10,
+      "color": "#333333"
+    },
+    {
+      "type": "rect",
+      "x": 120,
+      "y": 60,
+      "color": "#000000",
+      "width": 44,
+      "height": 44,
+      "text": "FPGA",
+      "textColor": "white"
+    },
+    {
+      "type": "rect",
+      "x": 78,
+      "y": 70,
+      "color": "#000000",
+      "width": 34,
+      "height": 34,
+      "fontSize": 9,
+      "text": "SDRAM",
+      "textColor": "white"
+    },
+    {
+      "type": "rect",
+      "x": 230,
+      "y": 73,
+      "color": "#000000",
+      "width": 34,
+      "height": 34,
+      "fontSize": 5,
+      "text": "USB Programmer",
+      "textColor": "white"
+    },
+    {
+      "type": "text",
+      "x": 45,
+      "y": 83,
+      "text": "MAX1000",
+      "textColor": "white",
+      "rotation": 90
+    },
+    {
+      "type": "pinArray",
+      "x": 60,
+      "y": 41,
+      "horizontal": true,
+      "pins": [
+        {
+          "bind": "J2",
+          "label": "D5"
+        },
+        {
+          "bind": "J1",
+          "label": "D4"
+        },
+        {
+          "bind": "H4",
+          "label": "D3"
+        },
+        {
+          "bind": "H5",
+          "label": "D2"
+        },
+        {
+          "bind": "K10",
+          "label": "D1"
+        },
+        {
+          "bind": "H8",
+          "label": "D0"
+        },
+        {
+          "bind": "E4",
+          "label": "AIN6",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "F1",
+          "label": "AIN5",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "E3",
+          "label": "AIN4",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "D1",
+          "label": "AIN3",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "C1",
+          "label": "AIN2",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "C2",
+          "label": "ANI1",
+          "color": "#00FEBB"
+        },
+        {
+          "bind": "E1",
+          "label": "AIN0",
+          "color": "#00FEBB"
+        },
+        {
+          "color": "#E8BC63",
+          "label": "AREF"
+        }
+      ]
+    },
+    {
+      "type": "pinArray",
+      "x": 170,
+      "y": 51,
+      "color": "#00FEBB",
+      "horizontal": true,
+      "flipLabel": true,
+      "textColor": "white",
+      "pins": [
+        {
+          "bind": "B1",
+          "label": "AIN7"
+        },
+        {
+          "color": "GND",
+          "label": "GND"
+        },
+        {
+          "color": "#00FEBB",
+          "label": "AIN"
+        }
+      ]
+    },
+    {
+      "type": "pinArray",
+      "x": 60,
+      "y": 129,
+      "horizontal": true,
+      "flipLabel": true,
+      "pins": [
+        {
+          "bind": "L12",
+          "label": "D6"
+        },
+        {
+          "bind": "J12",
+          "label": "D7"
+        },
+        {
+          "bind": "J13",
+          "label": "D8"
+        },
+        {
+          "bind": "K11",
+          "label": "D9"
+        },
+        {
+          "bind": "K12",
+          "label": "D10"
+        },
+        {
+          "bind": "J10",
+          "label": "D11"
+        },
+        {
+          "bind": "H10",
+          "label": "D12"
+        },
+        {
+          "bind": "H13",
+          "label": "D13"
+        },
+        {
+          "bind": "G12",
+          "label": "D14"
+        },
+        {
+          "label": "Reset",
+          "color": "#FE6EFF"
+        },
+        {
+          "label": "GND",
+          "color": "GND"
+        },
+        {
+          "label": "3V3",
+          "color": "3V3"
+        },
+        {
+          "label": "VIN",
+          "color": "5V"
+        },
+        {
+          "label": "5V",
+          "color": "5V"
+        }
+      ]
+    },
+    {
+      "type": "pinArray",
+      "x": 110,
+      "y": 119,
+      "horizontal": true,
+      "flipLabel": false,
+      "textColor": "white",
+      "pins": [
+        {
+          "label": "PULL",
+          "bind": "B11"
+        },
+        {
+          "label": "PULL",
+          "bind": "G13"
+        }
+      ]
+    },
+    {
+      "type": "pinArray",
+      "x": 140,
+      "y": 119,
+      "horizontal": true,
+      "flipLabel": false,
+      "textColor": "white",
+      "pins": [
+        {
+          "label": "TMS",
+          "color": "#FE6EFF"
+        },
+        {
+          "label": "TDI",
+          "color": "#FE6EFF"
+        },
+        {
+          "label": "TDO",
+          "color": "#FE6EFF"
+        },
+        {
+          "label": "TCK",
+          "color": "#FE6EFF"
+        },
+        {
+          "label": "JTAG",
+          "color": "#00FEBB"
+        },
+        {
+          "label": "GND",
+          "color": "GND"
+        }
+      ]
+    },
+    {
+      "type": "pinArray",
+      "x": 203,
+      "y": 130,
+      "pinWidth": 6,
+      "pinHeight": 8,
+      "horizontal": true,
+      "color": "red",
+      "pins": [
+        {
+          "bind": "D8"
+        },
+        {
+          "bind": "C10"
+        },
+        {
+          "bind": "C9"
+        },
+        {
+          "bind": "B10"
+        },
+        {
+          "bind": "A10"
+        },
+        {
+          "bind": "A11"
+        },
+        {
+          "bind": "A9"
+        },
+        {
+          "bind": "A8"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "x": 203,
+      "y": 140,
+      "fontSize": 10,
+      "text": "LEDs 8-1"
+    },
+    {
+      "type": "rect",
+      "x": 254,
+      "y": 40,
+      "width": 14,
+      "height": 8,
+      "color": "#BBBBBB"
+    },
+    {
+      "type": "pin",
+      "x": 258,
+      "y": 32,
+      "color": "#C09508",
+      "label": "Reset",
+      "width": 6,
+      "rotation": 90
+    },
+    {
+      "type": "rect",
+      "x": 254,
+      "y": 132,
+      "width": 14,
+      "height": 8,
+      "color": "#BBBBBB"
+    },
+    {
+      "type": "pin",
+      "x": 258,
+      "y": 138,
+      "bind": "E6",
+      "color": "#C09508",
+      "label": "BTN",
+      "flipLabel": true,
+      "width": 6,
+      "rotation": 90
+    },
+    {
+      "type": "usb",
+      "x": 275,
+      "y": 70,
+      "rxBind": "A4",
+      "txBind": "B4",
+      "rotation": 90
+    },
+    {
+      "type": "pin",
+      "x": 210,
+      "y": 97,
+      "label": "CLK",
+      "color": "darkblue",
+      "width": 8,
+      "height": 10,
+      "rotation": 90,
+      "textColor": "white",
+      "bind": "H6"
+    },
+    {
+      "type": "pmod",
+      "x": 0,
+      "y": 80,
+      "bind": "PMOD_1",
+      "rotation": -90
+    }
+  ]
+}
