@@ -1,3 +1,4 @@
 ## OneWare Studio Integration for AXE5000
 
-![image](https://github.com/user-attachments/assets/951600a9-eee2-4693-9425-237f79d9b81b)
+![image](https://github.com/user-attachments/assets/cbdfea7b-998c-4ca6-9398-efcd6780cd4e)
+
